@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_Top_Rated"
+            android:title="Top Rated" />
+        <item
+            android:id="@+id/nav_Recent"
+
+            android:title="Recent" />
+        <item
+            android:id="@+id/nav_Most_View"
+
+            android:title="Most Views" />
+        <item
+            android:id="@+id/nav_Commingsoon"
+
+            android:title="Coming soon" />
+
+        <item
+            android:id="@+id/nav_Actor"
+
+            android:title="Actor" />
+
+        <item
+            android:id="@+id/nav_Actress"
+
+            android:title="Actoress" />
+        <item
+            android:id="@+id/nav_development"
+
+            android:title="About Developers" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Log Out" />
+
+        </menu>
+    </item>
+
+</menu>
