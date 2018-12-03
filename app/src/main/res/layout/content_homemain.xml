@@ -20,7 +20,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Last Update : 03.12.2017"
+        android:text="Last Update : 12.03.2018"
         android:textColor="#000000"
         android:textSize="20dp"
         android:textStyle="bold|italic"
